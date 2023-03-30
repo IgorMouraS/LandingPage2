@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 204, 0);
+}
+
+header{
+    background-color: rgba(11, 11, 11, 0.58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-imagem{
+    width: 100px;
+    height: auto;
+}
+
+.logo-texto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FEFEFE;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 18px;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.navegacao a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.contato-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-celular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-imagem{
+    width: 15px;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 100px 250px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.texto1, .texto2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 64px;
+    background-color: rgba(11, 11, 11, 0.58);
+    border-radius: 40px;
+}
+
+.botao a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.imagem{
+    width: 620px;
+    height: auto;
+}
